@@ -1,11 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>PlantHelp</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PlantHelp — Cuide das suas plantas com IA</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f0fdf4;
+      color: #1f2937;
+    }
+    header {
+      background: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    header h1 {
+      color: #15803d;
+      margin: 0;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #15803d;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h2 {
+      font-size: 40px;
+      color: #166534;
+    }
+    .hero p {
+      max-width: 700px;
+      margin: 20px auto;
+      font-size: 18px;
+    }
+    .button {
+      background: #15803d;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .plans {
+      background: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .plan {
+      border: 2px solid #15803d;
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 320px;
+      margin: 20px auto;
+    }
+    .promo {
+      background: #dc2626;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #166534;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+    footer a {
+      color: #bbf7d0;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>PlantHelp</h1>
-  <p>Plataforma oficial do PlantHelp.</p>
+
+<header>
+  <h1>🌱 PlantHelp</h1>
+  <nav>
+    <a href="#planos">Planos</a>
+    <a href="mailto:planthelp.oficial@gmail.com">Contato</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Cuide das suas plantas com Inteligência Artificial</h2>
+  <p>
+    Envie uma foto ou descreva o problema da sua planta.
+    O PlantHelp identifica a planta, analisa o problema e indica a melhor solução.
+  </p>
+  <a class="button" href="#planos">Começar agora</a>
+</section>
+
+<section id="planos" class="plans">
+  <h2>Plano Premium PlantHelp</h2>
+
+  <div class="plan">
+    <div class="promo">PROMOÇÃO DE INAUGURAÇÃO</div>
+
+    <p style="text-decoration: line-through; color: #6b7280;">De R$ 19,90</p>
+    <h3 style="color:#15803d; font-size:32px;">R$ 9,95</h3>
+    <p>Somente no primeiro mês</p>
+
+    <p><strong>🎁 Teste grátis de 3 dias</strong></p>
+
+    <ul style="text-align:left;">
+      <li>Identificação automática da planta</li>
+      <li>Diagnóstico do problema</li>
+      <li>Solução prática e clara</li>
+      <li>Análises ilimitadas</li>
+      <li>Suporte por e-mail</li>
+    </ul>
+
+    <a
+      class="button"
+      href="mailto:planthelp.oficial@gmail.com?subject=Assinatura%20Premium%20PlantHelp&body=Olá,%0A%0AGostaria de assinar o Plano Premium PlantHelp.%0A%0ANome:%0AE-mail:%0A%0AObrigado."
+    >
+      Assinar com PIX
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 PlantHelp. Todos os direitos reservados.</p>
+  <a href="termos.html">Termos de Uso</a>
+  <a href="privacidade.html">Política de Privacidade</a>
+</footer>
+
 </body>
 </html>
+
